@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            TreeNode treeNode11 = new TreeNode("Компьютерын ухаан, ");
-            TreeNode treeNode12 = new TreeNode("Программ хангамж");
-            TreeNode treeNode13 = new TreeNode("Мэдээллийн технологи", new TreeNode[] { treeNode12 });
-            TreeNode treeNode14 = new TreeNode("Математик");
-            TreeNode treeNode15 = new TreeNode("Байгалийн ухааны сургууль", new TreeNode[] { treeNode11, treeNode13, treeNode14 });
+            TreeNode treeNode1 = new TreeNode("Компьютерын ухаан, ");
+            TreeNode treeNode2 = new TreeNode("Программ хангамж");
+            TreeNode treeNode3 = new TreeNode("Мэдээллийн технологи", new TreeNode[] { treeNode2 });
+            TreeNode treeNode4 = new TreeNode("Математик");
+            TreeNode treeNode5 = new TreeNode("Байгалийн ухааны сургууль", new TreeNode[] { treeNode1, treeNode3, treeNode4 });
             label1 = new Label();
             linkLabel1 = new LinkLabel();
             checkBox1 = new CheckBox();
@@ -216,17 +216,17 @@
             // 
             treeView1.Location = new Point(423, 207);
             treeView1.Name = "treeView1";
-            treeNode11.Name = "Node1";
-            treeNode11.Text = "Компьютерын ухаан, ";
-            treeNode12.Name = "Node3";
-            treeNode12.Text = "Программ хангамж";
-            treeNode13.Name = "Node2";
-            treeNode13.Text = "Мэдээллийн технологи";
-            treeNode14.Name = "Node4";
-            treeNode14.Text = "Математик";
-            treeNode15.Name = "Node0";
-            treeNode15.Text = "Байгалийн ухааны сургууль";
-            treeView1.Nodes.AddRange(new TreeNode[] { treeNode15 });
+            treeNode1.Name = "Node1";
+            treeNode1.Text = "Компьютерын ухаан, ";
+            treeNode2.Name = "Node3";
+            treeNode2.Text = "Программ хангамж";
+            treeNode3.Name = "Node2";
+            treeNode3.Text = "Мэдээллийн технологи";
+            treeNode4.Name = "Node4";
+            treeNode4.Text = "Математик";
+            treeNode5.Name = "Node0";
+            treeNode5.Text = "Байгалийн ухааны сургууль";
+            treeView1.Nodes.AddRange(new TreeNode[] { treeNode5 });
             treeView1.Size = new Size(346, 195);
             treeView1.TabIndex = 19;
             // 
@@ -371,7 +371,7 @@
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "text1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
